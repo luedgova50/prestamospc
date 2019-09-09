@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
+/*
+|--------------------------------------------------------------------------
+|
+|Route::get('/', function () {
     return view('welcome');
-});
+ });
+|
+*/
+
+/*RUTAS DE PERMISO*/
+Route::get('permits', 'PermitsController@index');
+
