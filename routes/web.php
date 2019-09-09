@@ -20,6 +20,7 @@
 |
 */
 
+Route::get('/', 'InicioController@index');
 /*RUTAS DE PERMISO*/
-Route::get('permits', 'PermitsController@index');
+//Route::get('permits', 'PermitsController@index');
 
